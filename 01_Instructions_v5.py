@@ -39,7 +39,7 @@ def instructions():
 
 
 # Main Routine
-played_before = question("Have you played this game before?")
+played_before = question("Have you played this game before? ")
 print(f"You answered {played_before}")
 if played_before == "No":
     instructions()
