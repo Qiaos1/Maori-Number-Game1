@@ -4,7 +4,7 @@ Asks the Māori name for the number generated"""
 import random
 
 
-# Maori numbers from one to ten
+# Māori numbers from one to ten
 māori_number = {
     1: "tahi",
     2: "rua",

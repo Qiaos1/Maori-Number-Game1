@@ -4,7 +4,7 @@ Turns version 1 into a loop to make testing easier"""
 import random
 
 
-# Maori numbers from one to ten
+# Māori numbers from one to ten
 māori_number = {
     1: "tahi",
     2: "rua",
@@ -27,7 +27,7 @@ def generate_number():
 while True:
     number = generate_number()
     print(number)
-    answer = input(f"What is the Maori name for {number}? (Type Exit to stop "
+    answer = input(f"What is the Maori name for {number}? (Type Exit to stop"
                    f"playing)")
     if answer.lower() == "exit":
         break
