@@ -23,7 +23,7 @@ def play_game():
 
         # Otherwise show error
         else:
-            print("Sorry that wasn't an option")
+            print("Sorry that wasn't an option. Please type yes or no")
 
 
 # Starts the round function
