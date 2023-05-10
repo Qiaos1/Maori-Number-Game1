@@ -65,7 +65,9 @@ def play_game():
     # Loop until the user says "no"
     while True:
         # Ask user whether they want to play again or not
-        rounds = input("Are you sure you want to leave this game? ")
+        rounds = input("Are you sure you want to leave this game? (Type yes "
+                       "if you want to leave the game and no if you want to"
+                       "carry on playing) ")
 
         # Convert the user input to lowercase
         rounds = rounds.lower()
